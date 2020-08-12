@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './base.css';
+import './notice.css';
+
 
 function App() {
   return (
@@ -13,16 +16,16 @@ function App() {
             <option value="C">내용</option>
             <option value="A">제목+내용</option>
           </select>
-          <input type="text" placeholder="검색어를 입력하세요" >
-            <input type="button" className="search_icon" value="">
+          <input type="text" placeholder="검색어를 입력하세요" />
+            <input type="button" className="search_icon" value="" />
         </div>
 
         <table className="NoticeList_warp">
           <colgroup>
-            <col style="width: 10%">
-              <col style="width: *">
-                <col style="width: 20%">
-                  <col style="width: 10%">
+            <col width="10%" />
+              <col width="*" />
+                <col width="20%" />
+                  <col width="10%" />
           </colgroup>
           <thead className="NoticeList_head">
           <tr>

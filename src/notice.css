@@ -34,7 +34,7 @@ body {
     padding: 10px 10px;
     font-family: inherit;
     border: 1px solid #d0ccc7;    
-    background: url('../images/select_btn01.png') no-repeat 90% 50%;
+    background: url('./images/select_btn01.png') no-repeat 90% 50%;
     font-size: 14px;
     font-weight: 600;
     color: #52504f;
@@ -52,7 +52,7 @@ input[type="text"] {
 /*search_icon*/
 .search_icon {
     width: 40px; height: 40px;
-    background: url(../images/search_icon.png) no-repeat center;
+    background: url(./images/search_icon.png) no-repeat center;
     border: 1px solid #d0ccc7;
     vertical-align: top;
     position: relative; left: -5px;
